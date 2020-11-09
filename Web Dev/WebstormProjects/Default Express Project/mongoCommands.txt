@@ -1,0 +1,6 @@
+Start Mongo Server:
+brew services start mongodb-community@4.2
+
+Stop Mongo Server:
+brew services stop mongodb-community@4.2
+

@@ -1,0 +1,311 @@
+html, body {
+  height: 100%;
+  background-color: #f5d9d5;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 75%
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    margin: 0 0;
+}
+
+h1 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 4rem;
+  margin: 0 0;
+  text-align: center;
+}
+
+h4 {
+  margin: 0 0;
+}
+
+h2 {
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+img {
+  display: block;
+  max-width: 80vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+p.Pinyin {
+  color: steelBlue;
+}
+
+.card-body > p {
+  font-size: 1rem;
+}
+
+.top {
+  padding-top: 46px;
+}
+
+#Pieces {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+#pieces-hr {
+  margin-bottom: 100px;
+}
+
+#prose-pieces {
+  margin-bottom: 50px;
+}
+
+h5 {
+  text-align: center;
+}
+
+.card-deck > .card-size,
+.card-deck > .card-size {
+  max-width: 30vw;
+  background-color: rgb(222,192,222);
+}
+
+.card-deck > .card-size-prose,
+.card-deck > .card-size-prose {
+  max-width: 20vw;
+  background-color: rgb(222,192,222);
+}
+
+#FishermanText {
+  margin-top: 25px;
+}
+
+#textJumbo1,
+#textJumbo2 {
+  background: none;
+  background-color: rgb(222,192,222);
+}
+
+.card > .card-img-top {
+  display: block;
+  max-width: 30vw;
+  max-height: 30vh;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+#magazine,
+#mission {
+  margin-top: 6px;
+  color: black;
+}
+
+#CoverImage1:hover {
+  border: 10px solid rgb(222,192,222);
+  cursor: pointer;
+}
+
+.square {
+
+  background-color: rgb(222,192,222);
+}
+
+.no-marg {
+  margin-bottom: 0;
+}
+
+.badge-dark,
+.badge-light {
+  font-size: .9rem;
+}
+
+#magazine:hover,
+#mission:hover {
+  color: steelBlue;
+}
+
+#SignUp,
+#LogIn {
+  margin-right: 10px;
+}
+
+#pieceCon {
+  padding-top: 46px;
+}
+
+.jumbotron {
+  background: url("./Images/Kitty Paws.png");
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Mandarin {
+  margin-bottom: 20px;
+}
+
+#beachEnglish,
+#cameraEnglish,
+#closetEnglish,
+#phoneEnglish,
+#pickPocketEnglish {
+  margin-bottom: 10px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+#navbarMain {
+  background-color: transparent;
+}
+
+#jumboContent {
+  /* height: inherit; */
+}
+
+#carouselControls {
+  width: 35%;
+}
+
+#carouselCon {
+  height: 500px;
+}
+
+#downArrow {
+  color: white;
+  height: 10px;
+}
+
+.fa-chevron-down {
+  font-size: 3rem;
+}
+
+#downArrow.hovered {
+  color: black !important;
+  font-size: 4rem;
+}
+
+.carousel-item > img {
+  display: block;
+    max-width: 50%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-caption {
+  position: static !important;
+}
+
+.Curr-Issue {
+  background-color: #f5d9d5;
+  height: inherit;
+}
+
+.NewsLetter {
+  background-color: #f5d9d5;
+  height: inherit;
+}
+
+#clickFontAwesome {
+  cursor: pointer;
+}
+
+#navbarMain.navbar.scrolled {
+  background-color: rgb(222,192,222);
+  transition: background 500ms;
+}
+
+#navbarMain.navbar.scrolled .dropdown-menu {
+  background-color: rgb(222,192,222);
+}
+
+#navbarMain.navbar.scrolled .dropdown.show a {
+  background-color: rgb(222,192,222);
+}
+
+.navbar .dropdown-menu {
+  background-color: #f5d9d5;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* and this styles the dropdwon trigger link, when open */
+.navbar .dropdown.show a {
+  background-color: #f5d9d5;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active,
+.dropdown .dropdown-menu .dropdown-item:hover,
+.dropdown .dropdown-menu .dropdown-item:active:visited,
+.dropdown .dropdown-menu .dropdown-item:focus {
+  background-color: #f5d9d5 !important;
+}
+
+#navbarMain.navbar.scrolled .dropdown .dropdown-menu .dropdown-item:active,
+#navbarMain.navbar.scrolled .dropdown .dropdown-menu .dropdown-item:hover,
+#navbarMain.navbar.scrolled .dropdown .dropdown-menu .dropdown-item:visited,
+#navbarMain.navbar.scrolled .dropdown .dropdown-menu .dropdown-item:focus {
+  background-color: rgb(222,192,222) !important;
+}
+
+
+.navPadding {
+  padding-top: 46px;
+}
+
+#navHome {
+  display: none;
+}
+
+#navHome.scrolledHome {
+  display: inline;
+}
+
+#navHome.scrolledHome:hover {
+  color: steelBlue;
+}
+
+#curr:hover,
+#issueDrop:hover {
+  color: steelBlue;
+}
+
+
+.fa-cat {
+  font-size: 32px;
+}
+
+.fa-cat:hover {
+  color: steelBlue;
+}

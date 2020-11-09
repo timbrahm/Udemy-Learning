@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+
+<h1 class="text-center mt-3">Sign-up Form</h1>
+
+<div class="container-fluid" style="width: 30%">
+    <form class="form-group" action="/register" method="post">
+        <input class="form-control" type="text" placeholder="Username" name="username">
+        <input class="form-control" type="password" placeholder="Password" name="password">
+        <input class="btn btn-success" type="submit">
+    </form>
+</div>
+
+<ul>
+    <li><a href="/register">Sign Up</a></li>
+    <li><a href="/login">Login</a></li>
+    <li><a href="/logout">Log Out</a></li>
+</ul>
+
+<%- include('partials/header') %>

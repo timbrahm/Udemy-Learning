@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Default Express App/.idea/Default Express App.iml" filepath="$PROJECT_DIR$/../Default Express App/.idea/Default Express App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RESTBlog.iml" filepath="$PROJECT_DIR$/.idea/RESTBlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../untitled/.idea/untitled.iml" filepath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+h1 {
+  font-size: 30 px;
+  width: 157.1px;
+  margin: 0 auto;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+td:hover {
+  border: 1.5px solid purple;
+}
+
+tr {
+  margin: 0 0;
+}
+
+.right {
+  border-right: 1px solid black;
+}
+
+.left {
+  border-left: 1px solid black;
+}
+
+.topBottom {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.middle {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}

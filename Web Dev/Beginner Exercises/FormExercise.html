@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Exercise</title>
+  </head>
+  <body>
+
+    <h1>Register</h1>
+
+    <form>
+
+      <div>
+        <label for="firstName">First Name:</label>
+        <input id="firstName" type="text" name="firstName" placeholder="First Name" required>
+
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" type="text" name="lastName" placeholder="Last Name" required>
+      </div>
+
+      <div>
+        <label for="male">Male:</label>
+        <input id="male" type="radio" name="gender" value="male">
+
+        <label for="female">Female:</label>
+        <input id="female" type="radio" name="gender" value="female">
+
+        <label for="other">Other:</label>
+        <input id="other" type="radio" name="gender" value="other">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" placeholder="Email" required>
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" placeholder="Password" minlength="5" maxlength="10" required>
+      </div>
+
+      <div>
+        <label for="Birthday Month">Birthday:</label>
+        <select id="Birthday Month" name="Birthday Month">
+          <option value="None">Month</option>
+          <option value="January">January</option>
+          <option value="March">March</option>
+        </select>
+
+        <label for="Birthday Day"></label>
+        <select id="Birthday Day" name="Birthday Day">
+          <option value="None">Day</option>
+          <option value="29">29</option>
+          <option value="69">69</option>
+        </select>
+
+        <label for="Birthday Year"></label>
+        <select id="Birthday Year" name="Birthday Year">
+          <option value="None">Year</option>
+          <option value="1998">1998</option>
+          <option value="2000 BC">2000 BC</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="TOS">I Agree to the Terms and Conditions</label>
+        <input type="checkbox" name="TOS" id="TOS" value="TOS" required>
+      </div>
+
+      <button type="form" name="Submit">Submit</button>
+
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.pink {
+  background: pink;
+  border: 1px dashed purple;
+  color: black;
+  height = 30px;
+}
+
+.purple {
+  background: purple;
+  border: 1px solid pink;
+  color: silver;
+}

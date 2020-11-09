@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- Bootstrap 4.4.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/956e39cea3.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="FTK.css">
+
+    <title>Current Issue</title>
+
+  </head>
+  <body>
+
+    <section class="NavBar d-none d-md-block">
+      <div class="container-fluid">
+        <nav id="navbarMain" class="fixed-top navbar navbar-expand-md navbar-light py-0">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-0">
+              <a class="navbar-brand" href="./index.html"><i class="fas fa-cat"></i><span id="navHome"> Home</span></a>
+              <!-- <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li> -->
+
+              <li class="nav-item">
+                  <a id="mission" href="./Mission.html" class="nav-link">Mission</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a id="magazine" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Magazine
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a id="issueDrop" href="./index.html#CurrentIssue" class="dropdown-item">Issues</a>
+                  <a id="curr" href="CurrentIssue.html" class="dropdown-item">Current Issue</a>
+                </div>
+              </li>
+
+            </ul>
+
+            <ul class="nav navbar-nav ml-auto navbar-right">
+              <li id="SignUp"><a class="badge badge-dark" href="#">Sign Up</a></li>
+              <li id="Login"><a class="badge badge-light" href="#">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section class="NavBar d-block d-md-none">
+      <div class="container-fluid">
+        <nav id="navbarMain" class="fixed-top navbar navbar-expand-md navbar-light py-0 scrolled">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-0">
+              <a class="navbar-brand" href="./index.html"><i class="fas fa-cat"></i><span id="navHome"> Home</span></a>
+              <!-- <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li> -->
+
+              <li class="nav-item">
+                  <a id="mission" href="./Mission.html" class="nav-link">Mission</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a id="magazine" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Magazine
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a id="issueDrop" href="./index.html#CurrentIssue" class="dropdown-item">Issues</a>
+                  <a id="curr" href="CurrentIssue.html" class="dropdown-item">Current Issue</a>
+                </div>
+              </li>
+
+            </ul>
+
+            <ul class="nav navbar-nav ml-auto navbar-right">
+              <li id="SignUp"><a class="badge badge-dark" href="#">Sign Up</a></li>
+              <li id="Login"><a class="badge badge-light" href="#">Login</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <div id="CoverImage" class="container-fluid d-flex justify-content-center navPadding">
+      <img src="./Images/Feed The Kitty.png" alt="Current Issue Cover" class="img-thumbnail">
+    </div>
+
+
+
+    <div id="Pieces" class="container">
+      <div class="d-flex justify-content-center">
+        <a id="readMore" href="#pieceCon" type="button" class="btn btn-light smoothScroll">Pieces</a>
+      </div>
+      <div id="downArrow" class="d-flex justify-content-center smoothScroll">
+        <span id="clickFontAwesome"><i class="fas fa-chevron-down"></i></span>
+      </div>
+    </div>
+
+    <hr id="pieces-hr">
+
+
+    <div  id="pieceCon" class="container-fluid d-flex flex-column">
+
+      <div class="container d-flex justify-content-center">
+
+        <h2>Prose</h2>
+
+      </div>
+
+
+      <div id="prose-pieces" class="container-fluid d-flex justify-content-center">
+        <div class="card-deck">
+          <div class="card card-size-prose text-center">
+
+            <div class="card-body">
+              <h5 class="card-title">房中新术</h5>
+              <h5 class="card-title">"New Sexual Medicine"</h5>
+              <h6>By: 古夫</h6>
+              <p class="card-text">A polyamorous joke that explores an ancient
+              Chinese philosophy of promoting health through sex.</p>
+
+              <a href="./ProsePieces/SexualMedicine.html" class="btn btn-light">Read</a>
+            </div>
+          </div>
+          <div class="card card-size-prose text-center">
+
+            <div class="card-body">
+              <h5 class="card-title">渔翁得到</h5>
+              <h5 class="card-title">"Fisherman's Benefit"</h5>
+              <h6>By: 文敏</h6>
+              <p class="card-text">A joke with a lesson attached. Delve into a
+              Chinese idiom with an interesting aquatic origin.</p>
+
+              <a href="./ProsePieces/FishermanBenefit.html" class="btn btn-light">Read</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center">
+
+        <h2>Images</h2>
+
+      </div>
+
+      <div id="image-pieces" class="container-fluid d-flex justify-content-center">
+        <div class="card-deck">
+          <div class="card card-size text-center">
+            <img class="card-img-top" src="./Images/Camera.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">导流</h5>
+              <h5 class="card-title">"Diversion"</h5>
+              <h6>By: 水林</h6>
+
+
+
+              <a href="./ImagePieces/Camera.html" class="btn btn-light">Read</a>
+            </div>
+          </div>
+          <div class="card card-size text-center">
+            <img class="card-img-top" src="./Images/Beach.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">沙堡</h5>
+              <h5 class="card-title">"Sand Castle"</h5>
+              <h6>By: 水林</h6>
+
+
+
+              <a href="./ImagePieces/Beach.html" class="btn btn-light">Read</a>
+            </div>
+          </div>
+
+          <div class="card card-size text-center">
+            <img class="card-img-top" src="./Images/Closet.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">不速之客</h5>
+              <h5 class="card-title">"Uninvited Guest"</h5>
+              <h6>By: 水林</h6>
+
+
+
+              <a href="./ImagePieces/Closet.html" class="btn btn-light">Read</a>
+            </div>
+          </div>
+
+          <div class="card card-size text-center">
+            <img class="card-img-top" src="./Images/Phone.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">异心</h5>
+              <h5 class="card-title">"Infidelity"</h5>
+              <h6>By: 水林</h6>
+
+
+              <a href="./ImagePieces/Phone.html" class="btn btn-light">Read</a>
+            </div>
+          </div>
+
+          <div class="card card-size text-center">
+            <img class="card-img-top" src="./Images/PickPocket.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">扒手</h5>
+              <h5 class="card-title">"Pick-Pocket"</h5>
+              <h6>By: 水林</h6>
+
+
+              <a href="./ImagePieces/PickPocket.html" class="btn btn-light">Read</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+          integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+          crossorigin="anonymous"></script>
+  <!-- Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+          integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+          crossorigin="anonymous"></script>
+
+  <!-- JS -->
+  <script src="Curr.js" charset="utf-8"></script>
+
+  </body>
+</html>

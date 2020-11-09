@@ -1,0 +1,12 @@
+<h1>Hi</h1>
+
+<% list.forEach((item) => { %>
+    <li><%= item %></li>
+<% }); %>
+
+<hr>
+
+<form action="/addtea" method="post">
+    <input type="text" placeholder="Tea Name" name="item">
+    <button>Accept</button>
+</form>
